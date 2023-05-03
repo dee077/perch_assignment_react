@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/App.css'
+import discountWidget from './discountWidget/widget';
 
 function Product(props) {
   return (
@@ -10,7 +11,7 @@ function Product(props) {
         </div>
         <h3 className="product-title">{props.title}</h3>
         <p className="product-description">{props.description}</p>
-        <span className="product-price">$</span><p className="product-price price price-3">{props.price}</p>
+        <span className="product-price">$</span><p className="product-price price price-3">{discountWidget(props.price)}</p>
     </div>
   );
 }
