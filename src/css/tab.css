@@ -1,0 +1,103 @@
+/* body{
+  margin: auto;
+  width: 60%;
+} */
+@media (min-width: 600px) and (max-width: 1024px) {
+  /* Navbar */
+  .navbar-heading {
+    font-size: 26px;
+    margin: 1.5% 2% 1.5% 2%;
+  }
+  .navbar-tag {
+    font-size: 15px;
+  }
+  .size-type {
+    font-size: 28px;
+    cursor: pointer;
+    padding: 4px 6px;
+  }
+
+  /* Get-started */
+  .get-started {
+    height: 72vh;
+  }
+  .get-started-heading {
+    margin-top: 0;
+    font-size: 43px;
+  }
+  .get-started-text {
+    font-size: 18px;
+    margin-top: 4%;
+    margin-bottom: 0;
+  }
+  .get-started-btn {
+    margin-top: 14%;
+    font-size: 17px;
+    padding: 4% 12%;
+  }
+
+  /* New-Release */
+  .new-release-heading {
+    font-size: 35px;
+  }
+  .new-release-text {
+    font-size: 18px;
+    width: 100%;
+  }
+  .new-release-body {
+    margin-top: 2%;
+  }
+  .product-img {
+    width: 100%;
+  }
+  .product-img-wallpaper {
+    border-radius: 15px;
+    left: 20%;
+    width: 61%;
+    height: 84%;
+  }
+  .product-title {
+    font-size: 25px;
+  }
+  .product-description {
+    font-size: 20px;
+    margin: 4% 2% 4% 2%;
+  }
+  .product-price {
+    font-size: 20px;
+    margin: 5% 0 5% 0;
+  }
+  .arrow {
+    font-size: 35px;
+    top: 32%;
+  }
+  .left {
+    left: -2%;
+  }
+  .right {
+    right: -2%;
+  }
+
+  /* Explore your Universe */
+  .explore {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    height: 58vh;
+  }
+  .explore-heading {
+    margin-top: 0;
+    font-size: 30px;
+  }
+  .explore-btn {
+    padding: 4% 12%;
+    font-size: 17px;
+  }
+
+  /* Follow us */
+  .follow-us-heading {
+    font-size: 25px;
+  }
+  .icon {
+    font-size: 30px;
+  }
+}

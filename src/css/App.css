@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  font-family: "Gilroy-Light", sans-serif;
+  background-color: black;
+}
+.App{
+  background-color: white;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgb(0, 191, 255);
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  color: white;
+}
+.navbar-heading {
+  margin: 1.5% 2% 0 0;
+  font-size: 25px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.navbar-tag {
+  font-size: 15px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-right: 5%;
+  
+}
+.size-type{
+  font-size: 2.1rem;
+  margin: 0 2% 0 2%;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+.size-type:hover{
+  background-color: rgb(7, 172, 254);
+  border-radius: 50px;
+}
+
+/* Get-Started */
+.get-started {
+  background-image: url(../assets/images/Get-Started_bg.jpeg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size:cover; */
+  background-size: 100% 100%;
+  display: flex;
+  height: 90vh;
+}
+.get-started-content {
+  width: 50%;
+  margin: 6% 5% 0 55%;
+}
+.get-started-heading {
+  font-size: 2.6rem;
+  color: rgb(49, 48, 48);
+}
+.get-started-text {
+  font-size: 1.3rem;
+  margin-top: 6%;
+  line-height: 200%;
+  color: rgb(34, 32, 32);
+}
+.get-started-btn {
+  margin-top: 5%;
+  padding: 2% 7%;
+  background-color: rgb(0, 191, 255);
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.get-started-btn:hover {
+  background-color: rgb(0, 170, 255);
+}
+
+/* New Release */
+.new-release {
+  width: 85%;
+  margin: auto;
+  margin-top: 5%;
+}
+.new-release-head {
+  text-align: center;
+}
+.new-release-heading {
+  font-size: 2rem;
+  color: rgb(49, 48, 48);
+  margin-bottom: 2%;
+}
+.new-release-text {
+  font-size: 1.2rem;
+  color: rgb(34, 32, 32);
+  line-height: 200%;
+  width: 60%;
+  margin: auto;
+}
+.new-release-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  position: relative;
+  scroll-behavior: smooth;
+  z-index: 0;
+}
+.product {
+  text-align: center;
+  margin-top: 7%;
+}
+.product-animation{
+  transition: transform 1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.product-div {
+  position: relative;
+  width: 100%;
+}
+.product-img {
+  width: 65%;
+  margin: auto;
+}
+.product-img-wallpaper {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  width: 40%;
+  height: 85%;
+  border-radius: 20px;
+}
+.product-title {
+  margin: 0;
+  color: rgb(49, 48, 48);
+  font-size: 1.4rem;
+}
+.product-description {
+  color: rgb(34, 32, 32);
+  font-size: 1.1rem;
+  margin: 3% 0 3% 0;
+}
+.product-price {
+  color: rgb(34, 32, 32);
+  font-size: 1.1rem;
+  display: inline;
+  margin: 3% 0 5% 0;
+}
+.arrow{
+  font-size: 40px;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  cursor: pointer;
+  z-index: 100;
+}
+.left{
+  left: 3%;
+}
+.right{
+  right: 3%;
+}
+
+/* Explore your Universe */
+.explore {
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  background-image: url(../assets/images/Explore-your-Universe.jpeg);
+  background-size: cover;
+  background-position: bottom center;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 78vh;
+}
+.explore-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.explore-heading {
+  margin-top: 0;
+  font-size: 2rem;
+  color: rgb(49, 48, 48);
+}
+.explore-btn {
+  padding: 4% 15%;
+  background-color: rgb(0, 191, 255);
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 60%;
+}
+.explore-btn:hover {
+  background-color: rgb(0, 170, 255);
+}
+
+/* Follow us */
+.follow-us {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.follow-us-heading {
+  margin: 0;
+  font-size: 1.5rem;
+  color: rgb(49, 48, 48);
+  padding: 2% 0 3% 0;
+}
+.icons {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+.icon {
+  font-size: 2rem;
+  margin-left: 10%;
+  cursor: pointer;
+}
